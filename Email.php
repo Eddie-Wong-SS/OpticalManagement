@@ -18,9 +18,9 @@ function sendEmail($Subject, $Body, $Address)
     $mail->Port = 465;
     $mail->CharSet= "big5";
 
-    $mail->Username="wong.eddie.eddie@gmail.com";
-    $mail->Password= "darg0narix4rfv";
-    $mail->SetFrom('wong.eddie.eddie@gmail.com','Eddie Wong');//sender email
+    $mail->Username="yokiotest@gmail.com";
+    $mail->Password= "powaa7890";
+    $mail->SetFrom('yokiotest@gmail.com','Optical Test Team');//sender email
 
 
     $mail->Sender = 'account_bounces-user=wong.eddie.eddie@gmail.com';

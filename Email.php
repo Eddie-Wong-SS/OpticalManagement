@@ -23,7 +23,7 @@ function sendEmail($Subject, $Body, $Address)
     $mail->SetFrom('yokiotest@gmail.com','Optical Test Team');//sender email
 
 
-    $mail->Sender = 'account_bounces-user=wong.eddie.eddie@gmail.com';
+    $mail->Sender = 'account_bounces-user=yokiotest@gmail.com';
     $mail->Subject= $Subject;
     $mail->Body= $Body;
     $mail->IsHTML(true);
